@@ -1,0 +1,171 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin-top: 92px;
+  font-size: 5rem;
+  margin-bottom: 0px;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+div {
+  background-color: #e0ece4;
+  position: relative;
+  padding-top: 5%;
+}
+
+/**************************CLASS SELECTOR****************/
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 69%;
+  top: 55px;
+}
+
+.second-heading {
+  font-size: 1.25rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2
+}
+
+.mountain {
+  padding-top: 56px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.btn {
+  color: #11999E;
+}
+
+.profile {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin-bottom: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.Skill {
+  float: left;
+  margin-right: 30px;
+}
+
+.Second-skill {
+  float: right;
+}
+
+.dotted {
+  width: 3%;
+  border-style: dotted;
+  border-top: none;
+  border-width: 6px;
+  border-color: grey;
+  margin-bottom: 50px;
+}
+
+.get {
+  font-size: 2.5rem;
+}
+
+.BUTTON-hire-me {
+  box-shadow: 0px 0px 4px 0px #3dc21b;
+  background-color: #66bfbf;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 14px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.BUTTON-hire-me:hover {
+  background-color: #5cbf2a;
+}
+
+.BUTTON-hire-me:active {
+  position: relative;
+  top: 1px;
+}
+
+.Footer-Blue {
+  background-color: #66BFBF;
+  margin-top: 73px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.footer-link {
+  position: relative;
+  bottom: 30px;
+}
+
+.footer-link {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.footer-link:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+
+.footer-link:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-discription {
+  padding: 30px;
+  color: #EAF6F6;
+  font-weight: bolder;
+  font-size: 0.8rem;
+}
